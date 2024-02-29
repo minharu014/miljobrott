@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = "_MainLayout";
+}
+@model LoginModel
+
+<section id="mainColumn">
+    <h2>Inloggning för Småstads personal</h2>
+    <p class="info">En säker tjänst från Småstads IT-avdelning</p>
+
+    <form method="post" asp-controller="Home" asp-action="Login">
+        <p>
+            <input type="hidden" name="isSubmitted" value="true" />
+        </p>
+        <p>
+            <span class="label" asp-validation-for="UserName">Användarnamn:</span><br />
+            <input type="text" asp-for="UserName" />
+        </p>
+        <p>
+            <span class="label" asp-validation-for="Password">Lösenord:</span><br />
+            <input type="password" asp-for="Password" />
+        </p>
+        <p>
+            <input type="hidden" asp-for="ReturnUrl"/>
+        </p>
+        <p>
+            <input class="button" type="submit" value="Logga in" />
+            <br />
+            <!--Dessa länkar ska tas bort i uppgift 5 eftersom vi då fixar till att inloggningen hämtar rätt sida utifrån rollen-->
+            <!--
+            <a class="button" asp-controller="Manager" asp-action="StartManager">Inloggning av chefer</a><br />
+            <a class="button" asp-controller="Investigator" asp-action="StartInvestigator">Inloggning av handläggare</a>
+            -->
+        </p>
+        <div asp-validation-summary="All"></div>
+    </form>
+</section><!-- End Left -->

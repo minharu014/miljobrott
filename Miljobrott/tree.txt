@@ -1,0 +1,263 @@
+Folder PATH listing
+Volume serial number is 2687-ADD4
+C:.
+³   appsettings.Development.json
+³   appsettings.json
+³   Miljobrott.csproj
+³   Program.cs
+³   tree.txt
+³   
+ÃÄÄÄbin
+³   ÀÄÄÄDebug
+³       ÀÄÄÄnet6.0
+³           ³   appsettings.Development.json
+³           ³   appsettings.json
+³           ³   Humanizer.dll
+³           ³   Microsoft.AspNetCore.Cryptography.Internal.dll
+³           ³   Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+³           ³   Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+³           ³   Microsoft.Data.SqlClient.dll
+³           ³   Microsoft.EntityFrameworkCore.Abstractions.dll
+³           ³   Microsoft.EntityFrameworkCore.Design.dll
+³           ³   Microsoft.EntityFrameworkCore.dll
+³           ³   Microsoft.EntityFrameworkCore.Relational.dll
+³           ³   Microsoft.EntityFrameworkCore.SqlServer.dll
+³           ³   Microsoft.Extensions.Caching.Memory.dll
+³           ³   Microsoft.Extensions.Identity.Core.dll
+³           ³   Microsoft.Extensions.Identity.Stores.dll
+³           ³   Microsoft.Identity.Client.dll
+³           ³   Microsoft.IdentityModel.JsonWebTokens.dll
+³           ³   Microsoft.IdentityModel.Logging.dll
+³           ³   Microsoft.IdentityModel.Protocols.dll
+³           ³   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+³           ³   Microsoft.IdentityModel.Tokens.dll
+³           ³   Microsoft.Win32.SystemEvents.dll
+³           ³   Miljobrott.deps.json
+³           ³   Miljobrott.dll
+³           ³   Miljobrott.exe
+³           ³   Miljobrott.pdb
+³           ³   Miljobrott.runtimeconfig.json
+³           ³   Miljobrott.staticwebassets.runtime.json
+³           ³   System.Configuration.ConfigurationManager.dll
+³           ³   System.Drawing.Common.dll
+³           ³   System.IdentityModel.Tokens.Jwt.dll
+³           ³   System.Runtime.Caching.dll
+³           ³   System.Security.Cryptography.ProtectedData.dll
+³           ³   System.Security.Permissions.dll
+³           ³   System.Windows.Extensions.dll
+³           ³   
+³           ÀÄÄÄruntimes
+³               ÃÄÄÄunix
+³               ³   ÀÄÄÄlib
+³               ³       ÃÄÄÄnetcoreapp3.0
+³               ³       ³       System.Drawing.Common.dll
+³               ³       ³       
+³               ³       ÀÄÄÄnetcoreapp3.1
+³               ³               Microsoft.Data.SqlClient.dll
+³               ³               
+³               ÃÄÄÄwin
+³               ³   ÀÄÄÄlib
+³               ³       ÃÄÄÄnetcoreapp3.0
+³               ³       ³       Microsoft.Win32.SystemEvents.dll
+³               ³       ³       System.Drawing.Common.dll
+³               ³       ³       System.Windows.Extensions.dll
+³               ³       ³       
+³               ³       ÃÄÄÄnetcoreapp3.1
+³               ³       ³       Microsoft.Data.SqlClient.dll
+³               ³       ³       
+³               ³       ÀÄÄÄnetstandard2.0
+³               ³               System.Runtime.Caching.dll
+³               ³               System.Security.Cryptography.ProtectedData.dll
+³               ³               
+³               ÃÄÄÄwin-arm
+³               ³   ÀÄÄÄnative
+³               ³           Microsoft.Data.SqlClient.SNI.dll
+³               ³           
+³               ÃÄÄÄwin-arm64
+³               ³   ÀÄÄÄnative
+³               ³           Microsoft.Data.SqlClient.SNI.dll
+³               ³           
+³               ÃÄÄÄwin-x64
+³               ³   ÀÄÄÄnative
+³               ³           Microsoft.Data.SqlClient.SNI.dll
+³               ³           
+³               ÀÄÄÄwin-x86
+³                   ÀÄÄÄnative
+³                           Microsoft.Data.SqlClient.SNI.dll
+³                           
+ÃÄÄÄComponents
+³       ShowErrandDet.cs
+³       
+ÃÄÄÄControllers
+³       CitizenController.cs
+³       CoordinatorController.cs
+³       HomeController.cs
+³       InvestigatorController.cs
+³       ManagerController.cs
+³       
+ÃÄÄÄInfrastructure
+³       SessionExtension.cs
+³       
+ÃÄÄÄMigrations
+³   ³   20230202124258_InitialCreate.cs
+³   ³   20230202124258_InitialCreate.Designer.cs
+³   ³   ApplicationDbContextModelSnapshot.cs
+³   ³   
+³   ÀÄÄÄAppIdentityDb
+³           20230324154314_InitialCreate.cs
+³           20230324154314_InitialCreate.Designer.cs
+³           AppIdentityDbContextModelSnapshot.cs
+³           
+ÃÄÄÄModels
+³   ³   AppIdentityDbContext.cs
+³   ³   ApplicationDbContext.cs
+³   ³   DBInitializer.cs
+³   ³   EFRepository.cs
+³   ³   FakeRepository.cs
+³   ³   IdentityInitializer.cs
+³   ³   IRepository.cs
+³   ³   
+³   ÀÄÄÄPOCO
+³           Department.cs
+³           Employee.cs
+³           Errand.cs
+³           ErrandStatus.cs
+³           LoginModel.cs
+³           MyErrand.cs
+³           Picture.cs
+³           Sample.cs
+³           Sequence.cs
+³           
+ÃÄÄÄobj
+³   ³   Miljobrott.csproj.nuget.dgspec.json
+³   ³   Miljobrott.csproj.nuget.g.props
+³   ³   Miljobrott.csproj.nuget.g.targets
+³   ³   project.assets.json
+³   ³   project.nuget.cache
+³   ³   staticwebassets.pack.sentinel
+³   ³   
+³   ÀÄÄÄDebug
+³       ÀÄÄÄnet6.0
+³           ³   .NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+³           ³   apphost.exe
+³           ³   Miljobrott.AssemblyInfo.cs
+³           ³   Miljobrott.AssemblyInfoInputs.cache
+³           ³   Miljobrott.assets.cache
+³           ³   Miljobrott.csproj.AssemblyReference.cache
+³           ³   Miljobrott.csproj.BuildWithSkipAnalyzers
+³           ³   Miljobrott.csproj.CopyComplete
+³           ³   Miljobrott.csproj.CoreCompileInputs.cache
+³           ³   Miljobrott.csproj.FileListAbsolute.txt
+³           ³   Miljobrott.dll
+³           ³   Miljobrott.GeneratedMSBuildEditorConfig.editorconfig
+³           ³   Miljobrott.genruntimeconfig.cache
+³           ³   Miljobrott.GlobalUsings.g.cs
+³           ³   Miljobrott.MvcApplicationPartsAssemblyInfo.cache
+³           ³   Miljobrott.pdb
+³           ³   Miljobrott.RazorAssemblyInfo.cache
+³           ³   Miljobrott.RazorAssemblyInfo.cs
+³           ³   project.razor.vs.json
+³           ³   staticwebassets.build.json
+³           ³   staticwebassets.development.json
+³           ³   
+³           ÃÄÄÄref
+³           ³       Miljobrott.dll
+³           ³       
+³           ÃÄÄÄrefint
+³           ³       Miljobrott.dll
+³           ³       
+³           ÀÄÄÄstaticwebassets
+ÃÄÄÄProperties
+³       launchSettings.json
+³       
+ÃÄÄÄViews
+³   ³   _ViewImports.cshtml
+³   ³   _ViewStart.cshtml
+³   ³   
+³   ÃÄÄÄCitizen
+³   ³       Contact.cshtml
+³   ³       Faq.cshtml
+³   ³       Services.cshtml
+³   ³       Thanks.cshtml
+³   ³       Validate.cshtml
+³   ³       
+³   ÃÄÄÄCoordinator
+³   ³   ³   CrimeCoordinator.cshtml
+³   ³   ³   ReportCrime.cshtml
+³   ³   ³   StartCoordinator.cshtml
+³   ³   ³   Thanks.cshtml
+³   ³   ³   Validate.cshtml
+³   ³   ³   
+³   ³   ÀÄÄÄComponents
+³   ÃÄÄÄHome
+³   ³       AccessDenied.cshtml
+³   ³       Index.cshtml
+³   ³       Login.cshtml
+³   ³       
+³   ÃÄÄÄInvestigator
+³   ³       CrimeInvestigator.cshtml
+³   ³       StartInvestigator.cshtml
+³   ³       
+³   ÃÄÄÄManager
+³   ³       CrimeManager.cshtml
+³   ³       StartManager.cshtml
+³   ³       
+³   ÀÄÄÄShared
+³       ³   _CoordLayout.cshtml
+³       ³   _HeaderLayout.cshtml
+³       ³   _InvestigatorLayout.cshtml
+³       ³   _MainLayout.cshtml
+³       ³   _ManagerLayout.cshtml
+³       ³   
+³       ÃÄÄÄBackup
+³       ³       _CoordLayout.cshtml
+³       ³       _HeaderLayout.cshtml
+³       ³       _InvestigatorLayout.cshtml
+³       ³       _MainLayout.cshtml
+³       ³       _ManagerLayout.cshtml
+³       ³       
+³       ÀÄÄÄComponents
+³           ÀÄÄÄShowErrandDet
+³                   Default.cshtml
+³                   
+ÀÄÄÄwwwroot
+    ÃÄÄÄcss
+    ³       style.css
+    ³       
+    ÃÄÄÄimages
+    ³       background.png
+    ³       background_darker.png
+    ³       button.png
+    ³       buttonHover.png
+    ³       imagetest.jpg
+    ³       login.png
+    ³       logout.png
+    ³       menu.png
+    ³       menuHover.png
+    ³       pdficon_large.gif
+    ³       pic_1.jpg
+    ³       pic_2.jpg
+    ³       pic_3.jpg
+    ³       pic_4.jpg
+    ³       pic_5.jpg
+    ³       pic_6.jpg
+    ³       pic_7.jpg
+    ³       pic_8.jpg
+    ³       report.png
+    ³       report_add.png
+    ³       
+    ÀÄÄÄUploads
+            0146a6fd-f0e2-45ee-8d00-4782610da137_trash.jfif
+            0566e309-ed20-40da-81be-02abead41b92_NETpdt.pdf
+            16101a7e-e0e5-4a5b-a457-5076a1c53566_L5 - schemaaf.jpg
+            1fc5b944-05e1-49f4-8161-40fa03b82aab_trash.jfif
+            2421a6ff-c7c6-4a7e-b783-e7b275f5db81_L5 - schema.jpg
+            50fad1c1-4afb-42a2-90ab-12ce0220805f_NETpdt.pdf
+            51e9046a-fa3c-467b-a3f9-82f4ed0dbd88_loadSample
+            6139648e-711f-4cd2-b52e-814d1ee6a565_L5 - ERD.jpg
+            6e823194-a561-40e7-9d93-8ca4521e3691_loadImage
+            b739787c-3fa6-42d6-a7a5-616fcbebf33c_trash.jfif
+            bb67d089-b7e1-4262-8ce7-0dce53e16b62_NETpdt.pdf
+            c2c51879-f00b-4dc2-a3cd-457d4a1375c2_trash.jfif
+            f41d2efd-8bee-4739-bc46-b502ff4701e2_NETpdt.pdf
+            

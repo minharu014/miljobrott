@@ -1,0 +1,66 @@
+﻿@model IRepository
+
+@{
+
+    Layout = "_ManagerLayout";
+}
+
+<h2>Ärenden</h2>
+
+@await Component.InvokeAsync("ShowUserCred")
+
+<table id="managerForm">
+    <tr>
+        <td class="label">Välj status:</td>
+        <td class="label">Välj handläggare:</td>
+        <td>&nbsp;</td>
+        <td class="label">Ärendenummer:</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>
+            <select name="status">
+                <option selected="selected">Välj alla</option>
+                @foreach (ErrandStatus errandStatus in Model.ErrandStatuses)
+                {
+                    <option>@errandStatus.StatusName</option>
+                }
+            </select>
+        </td>
+        <td>
+            <select name="investigator">
+                <option selected="selected">Välj alla</option>
+                @foreach (Employee emp in Model.GetDepartmentEmp())
+                {
+                    <option>@emp.EmployeeName</option>
+                }
+            </select>
+        </td>
+        <td><input class="button" type="submit" value="Hämta lista" /></td>
+        <td><input name="casenumber" /></td>
+        <td><input class="button" type="submit" value="Sök" /></td>
+    </tr>
+</table>
+
+<!--Nedan ser man en lista på ärenden-->
+<table>
+    <tr>
+        <th>Ärende anmält</th>
+        <th>Ärendenummer</th>
+        <th>Miljöbrott</th>
+        <th>Status</th>
+        <th>Avdelning</th>
+        <th>Handläggare</th>
+    </tr>
+        @foreach (MyErrand myErrand in Model.GetManagerList())
+    {
+        <tr>
+            <td>@myErrand.DateOfObservation.ToShortDateString()</td>
+            <td><a asp-controller="Manager" asp-action="CrimeManager" asp-route-id="@myErrand.ErrandId">@myErrand.RefNumber</a></td>
+            <td>@myErrand.TypeOfCrime</td>
+            <td>@myErrand.StatusName</td>
+            <td>@myErrand.DepartmentName</td>
+            <td>@myErrand.EmployeeName</td>
+        </tr>
+    }
+</table>

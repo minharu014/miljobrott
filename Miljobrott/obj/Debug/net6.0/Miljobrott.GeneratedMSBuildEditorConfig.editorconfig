@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Miljobrott
+build_property.RootNamespace = Miljobrott
+build_property.ProjectDir = C:\Users\H\source\repos\Miljobrott\Miljobrott\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\H\source\repos\Miljobrott\Miljobrott
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Citizen/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aXplblxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Citizen/Faq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aXplblxGYXEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Citizen/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aXplblxTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Citizen/Thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aXplblxUaGFua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Citizen/Validate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aXplblxWYWxpZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Coordinator/CrimeCoordinator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmF0b3JcQ3JpbWVDb29yZGluYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Coordinator/ReportCrime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmF0b3JcUmVwb3J0Q3JpbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Coordinator/StartCoordinator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmF0b3JcU3RhcnRDb29yZGluYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Coordinator/Thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmF0b3JcVGhhbmtzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Coordinator/Validate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29vcmRpbmF0b3JcVmFsaWRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Home/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Investigator/CrimeInvestigator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aWdhdG9yXENyaW1lSW52ZXN0aWdhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Investigator/StartInvestigator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aWdhdG9yXFN0YXJ0SW52ZXN0aWdhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Manager/CrimeManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmltZU1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Manager/StartManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxTdGFydE1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Shared/Components/ShowErrandDet/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvd0VycmFuZERldFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Shared/Components/ShowUserCred/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvd1VzZXJDcmVkXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Shared/_CoordLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29yZExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Shared/_HeaderLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Shared/_InvestigatorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JbnZlc3RpZ2F0b3JMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/Shared/_ManagerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYW5hZ2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/H/source/repos/Miljobrott/Miljobrott/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

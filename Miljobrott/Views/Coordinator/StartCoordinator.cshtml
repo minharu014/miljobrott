@@ -1,0 +1,68 @@
+﻿@model IRepository
+@{
+    Layout = "_CoordLayout";
+}
+
+
+<h2>Ärenden</h2>
+@await Component.InvokeAsync("ShowUserCred")
+
+<table id="managerForm">
+    <tr>
+        <td class="label">Välj status:</td>
+        <td class="label">Välj avdelning:</td>
+        <td>&nbsp;</td>
+        <td class="label">Ärendenummer:</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>
+            <select name="status">
+                <option selected="selected">Välj alla</option>
+                @foreach (ErrandStatus errandStatus in Model.ErrandStatuses)
+                {
+                    <option>@errandStatus.StatusName</option>
+                }
+            </select>
+        </td>
+        <td>
+            <select name="department">
+                <option selected="selected">Välj alla</option>
+                @foreach (Department department in Model.Departments)
+                {
+                    <option>@department.DepartmentName</option>
+                }
+            </select>
+        </td>
+        <td><input class="button" type="submit" value="Hämta lista" /></td>
+        <td><input name="casenumber" /></td>
+        <td><input class="button" type="submit" value="Sök" /></td>
+    </tr>
+</table>
+
+<!--Nedan ser man en lista på ärenden-->
+<table>
+    <tr>
+        <th>Ärende anmält</th>
+        <th>Ärendenummer</th>
+        <th>Miljöbrott</th>
+        <th>Status</th>
+        <th>Avdelning</th>
+        <th>Handläggare</th>
+    </tr>
+        @foreach (MyErrand err in Model.GetErrandListDetail())
+        {
+        <tr>
+
+            <td>@err.DateOfObservation.ToShortDateString()</td>
+            <td><a asp-controller="Coordinator" asp-action="CrimeCoordinator" asp-route-id="@err.ErrandId">@err.RefNumber</a></td>
+            <td>@err.TypeOfCrime</td>
+            <td>@err.StatusName</td>
+            <td>@err.DepartmentName</td>
+            <td>@err.EmployeeName</td>
+
+        </tr>
+        }
+   
+</table>
+
